@@ -1,0 +1,77 @@
+*{
+    text-decoration: none !important;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #4c4946;
+}
+#main-section .container{
+    width: 70%;
+    margin-top: 20px;
+    padding: 20px 30px;
+    box-shadow: 0px -3px 35px 4px rgba(0,0,0,0.24);
+}
+#main-section .container .left-item{
+   background: #e3dbcc;
+   padding: 12px;
+}
+#main-section .container .left-item h4{
+  font-family: "Raleway", sans-serif;
+  margin: 20px 10px 0px 10px;
+  font-weight: 600;
+  
+}
+#main-section .container .left-item i{
+  color: #000;
+  padding: 0 10px;
+  font-size: 15px;
+}
+#main-section .container .left-item a{
+  color: #5d5c5c;
+}
+#main-section .container .left-item .person-img img{
+    height: 175px;
+    width: 175px;
+    border: 10px solid #ffff;
+    margin-top: 60px;
+    z-index: 2000;
+   
+}
+#main-section .container .left-item .contact{
+  margin-top: 100px;
+}
+#main-section .container .right-item .content{
+  background: #faf6f1;
+  z-index: 1000;
+  margin-left: -150px;
+  margin-top: 30px;
+  padding: 40px 50px 40px 50px; 
+}
+#main-section .container .right-item .details{
+ padding: 20px;
+}
+#main-section .container .right-item .details .personal-qualities a{
+  color: #5d5c5c;
+}
+#main-section .container .right-item .details .personal-qualities i{
+  color: #000;
+  padding: 0 10px;
+  font-size: 15px;
+}
+#main-section .container .right-item .content .content-item{
+ margin-left: 130px;
+}
+#main-section .container .right-item table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#main-section .container .right-item table td, th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#main-section .container .right-item table tr:nth-child(even) {
+  background-color: #dddddd;
+}
